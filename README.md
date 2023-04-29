@@ -27,14 +27,20 @@ SII_api consiste en una API en Python que permite a los usuarios consultar el va
   git clone https://github.com/J1jo/SII_api.git
 ```
 
-### 2.- Crear ambiente virtual
+### 2.- Installar requerimientos
+
+```bash
+  pip install requirements.txt
+```
+
+### 3.- Crear ambiente virtual
 
 ```bash
   python -m venv env
   env\Scripts\activate
 ```
 
-### 3.- Casos de prueba
+### 4.- Casos de prueba
 
 En la raíz se encuentra una carpeta llamada `tests` dentro de ella un archivo llamado `test_api.py`, desde el cual se hacen pruebas unitarias. Para probar diferentes casos es necesario modificar este archivo.
 ## Ejecutar pruebas
